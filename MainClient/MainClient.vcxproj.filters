@@ -1,0 +1,724 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\99. ETC">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. GameManager">
+      <UniqueIdentifier>{27eaf8df-ece8-4cd5-a8d5-8781434c002b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object">
+      <UniqueIdentifier>{192a9c5a-ae10-451b-bf5f-b37b6bcc0290}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player">
+      <UniqueIdentifier>{413e9333-b0bc-41f7-9365-a540f44d2764}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy">
+      <UniqueIdentifier>{4d98f17c-2653-48be-927a-b6958c0a961b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal">
+      <UniqueIdentifier>{828e82f6-0608-4524-a7b1-eef984584a89}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\01. Boss">
+      <UniqueIdentifier>{24a1f95f-17ed-4605-b1a0-c4a579a26966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Device">
+      <UniqueIdentifier>{0b5be0d0-c804-403b-8379-710c626fed7f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\99. ObjectMgr">
+      <UniqueIdentifier>{72f41499-a78f-48a8-becf-909b3ef607f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager">
+      <UniqueIdentifier>{8add7008-959c-4288-a6b2-1e42a7a4bc9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\00. AbstractFactory">
+      <UniqueIdentifier>{a85339e5-ed63-4c3c-8ff9-6ac3cd81d0e0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\01. MathMgr">
+      <UniqueIdentifier>{1c55b660-83da-4d67-ba4a-51755ce561fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\02. CollisionMgr">
+      <UniqueIdentifier>{4c3909ca-4699-4d74-8399-df2116a1e9a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\04. KeyMgr">
+      <UniqueIdentifier>{68746fca-3a15-47dc-92d1-eca674ed4410}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\05. ScrollMgr">
+      <UniqueIdentifier>{f3dfb2a5-a893-4bba-93d6-abd1e1304a3b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\06. TextureMgr">
+      <UniqueIdentifier>{23e30ef5-00e7-490c-969e-2a1408d70b6d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\06. TextureMgr\00. Texture">
+      <UniqueIdentifier>{920660c8-1725-4cd4-bbc9-890de9278ba1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\06. TextureMgr\00. Texture\00. SingleTexture">
+      <UniqueIdentifier>{249f8db9-6185-4de7-8b8b-40df21764550}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\06. TextureMgr\00. Texture\01. MultiTexture">
+      <UniqueIdentifier>{983f33b0-870d-464d-a165-f6ac2c7da82f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\07. TimeMgr">
+      <UniqueIdentifier>{73635965-e060-44cb-804e-f28771e65ef7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\08. SoundMgr">
+      <UniqueIdentifier>{17121e59-2746-406a-9450-1e887d156f61}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr">
+      <UniqueIdentifier>{94e21ac9-4d92-43b5-bcbe-f3572ac8da35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI">
+      <UniqueIdentifier>{8f7babc5-9671-4d7b-90a8-6ebe16715ef8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\00. Menu">
+      <UniqueIdentifier>{f01cbfd4-8256-4a0a-83e3-62429eb38c56}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. TerrainMgr">
+      <UniqueIdentifier>{89b70bcd-583e-4a4f-ac3b-9d83d5ee4cde}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. TerrainMgr\00. Terrain">
+      <UniqueIdentifier>{4a65b1e5-1989-4f14-a26e-a4bbc7db0e6e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr">
+      <UniqueIdentifier>{51cec259-96ca-45f5-8840-d4b5f733982a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\00. Abstract">
+      <UniqueIdentifier>{633df035-47ad-42b7-a9b5-49f306cdf359}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\01.Implementor">
+      <UniqueIdentifier>{729789de-4b4a-40df-a57a-6fb2a1e9d0fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr">
+      <UniqueIdentifier>{0eab6569-22e2-4d69-9aab-8b877e54343d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr\00. Subject">
+      <UniqueIdentifier>{a7b1686a-3f76-4b5e-b3b7-394d73a5e5c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr\01. Observer">
+      <UniqueIdentifier>{10170a45-988f-4bb0-bfdf-a5a8dd19ee9e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr\01. Observer\00. PlayerInfo">
+      <UniqueIdentifier>{a0579aae-d38e-4e76-829c-e1fbe8d8d528}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr\00. Subject\00. DataSubject">
+      <UniqueIdentifier>{9855c102-f271-46f1-b6b7-d880012b6f9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\00. Abstract">
+      <UniqueIdentifier>{cdcab417-07a6-4d9d-aa27-5b951ef6bf17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor">
+      <UniqueIdentifier>{dfe02996-4444-4cce-84cb-cf5569e5878c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. SceneMgr">
+      <UniqueIdentifier>{64c46542-1b39-4b2a-bd69-08fb3c1aea55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. SceneMgr\00. Scene">
+      <UniqueIdentifier>{d69be60b-458a-4645-831e-d3555a071694}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. SceneMgr\00. Scene\00. Logo">
+      <UniqueIdentifier>{c98f5d6c-8654-4119-982e-5b6a7b52079f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. SceneMgr\00. Scene\01. Stage">
+      <UniqueIdentifier>{d159cd99-8d06-470e-b468-2526f8c30ad2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\00. Abstract\00. AttackEffect">
+      <UniqueIdentifier>{465dbe76-6f16-4898-9c73-8ad053cfbb76}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\00. Abstract\01. BuffeEffect">
+      <UniqueIdentifier>{02160b79-a5c1-4d3d-89e7-0fdcbe61016e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\00. Abstract\02. ChargeEffect">
+      <UniqueIdentifier>{d86b9df2-383f-45ee-812e-c1ff942ef690}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\01.Implementor\01. NonAnimeEffect">
+      <UniqueIdentifier>{3d86b33d-8ee3-4086-bd9a-7482f48ef30d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\98. EffectMgr\01.Implementor\00. AnimeEffect">
+      <UniqueIdentifier>{f3dd43e5-1e51-4af9-939c-2976691f7321}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\01. Movememt">
+      <UniqueIdentifier>{c972d7aa-3ba6-4a2a-b0ac-6595e521bf2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\00. Idle">
+      <UniqueIdentifier>{b509a57e-2751-417b-9861-15809c6871fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\02. Battle">
+      <UniqueIdentifier>{cf16bdac-3e47-4be3-b08a-a32ad4cfd89f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close">
+      <UniqueIdentifier>{b3a94597-7787-4976-8e89-8e37a0fc0e91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range">
+      <UniqueIdentifier>{d22d2b6f-6149-4274-be4d-75860cae4edf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\02. Battle\02. Evasion">
+      <UniqueIdentifier>{e96d1ff1-f2ae-4225-a868-e7cee8e9d7e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp">
+      <UniqueIdentifier>{d2546591-0532-4967-a07a-e53212b0cc1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\02. Battle\03. Hit">
+      <UniqueIdentifier>{e320a3af-e9f8-4935-aa70-896e0b60b9e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\00. Nomal">
+      <UniqueIdentifier>{f83185d4-bcf0-4e23-9726-7b100429e67d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\01. Shield">
+      <UniqueIdentifier>{643a5b0c-eb19-439d-b521-b4230517c99e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone">
+      <UniqueIdentifier>{ca31f593-6c11-43a6-acec-8fd3b9aface7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\01. Bomb">
+      <UniqueIdentifier>{9a8b57d4-ae33-4aed-922c-dd45d9230889}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\00. Dagger">
+      <UniqueIdentifier>{16283a04-dde5-45c4-8f76-fd4e36b46e3a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\02. Weapone">
+      <UniqueIdentifier>{405fa1a2-8ad6-481b-b095-1147ac6c12ec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\02. Weapone\00. Arrow">
+      <UniqueIdentifier>{facfb0aa-921f-45c7-b73b-8d130858d7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\03. NPC">
+      <UniqueIdentifier>{4d1b25bf-7f1a-48de-b1f6-8f8d539ad5c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\10. TextMgr">
+      <UniqueIdentifier>{75faa0b1-e01e-4114-ac71-0d057290d78c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\04. Item">
+      <UniqueIdentifier>{dc4a7073-4a59-41c3-bf2e-06ce133907d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\04. Item\00. Money">
+      <UniqueIdentifier>{e311ea00-9295-45d0-8400-7dddf5b9f096}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\03. Effect">
+      <UniqueIdentifier>{bdb81825-834f-4ea2-b484-abc87ef23408}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\09. ObserverMgr\01. Observer\01. BossInfo">
+      <UniqueIdentifier>{6f6590a3-fbcb-4c65-8c54-486288c554d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\01. Equip">
+      <UniqueIdentifier>{28081775-30cc-4072-98f3-2daec777993e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\05. ItemBox">
+      <UniqueIdentifier>{cc17dc8f-81df-484f-9c7f-e487b1b12f21}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\03. HpBar">
+      <UniqueIdentifier>{a5b82d27-3a4d-426f-8cdd-311609d2dada}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\03. HpBar\00. Player">
+      <UniqueIdentifier>{d7e6fa5f-8f66-4f60-9761-c024b9dfbc75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\03. HpBar\01. Boss">
+      <UniqueIdentifier>{fdc6352e-cbfb-4837-bf7f-11d452bb532c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\02. ImportItem">
+      <UniqueIdentifier>{75811b03-d2b3-4a17-8959-18d7f0e6fe75}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\11. DataMgr">
+      <UniqueIdentifier>{4d4612f0-565d-41a5-b9d8-1ef57a3ea8c5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. UiMgr\00. UI\99. Slot">
+      <UniqueIdentifier>{c7f104b6-7b25-4490-a1d1-5dd85f9aa8d1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move">
+      <UniqueIdentifier>{684320d9-41c6-47f3-8be6-31ca6242a6ee}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\01. Jump">
+      <UniqueIdentifier>{4fa5a018-9353-4bcf-bb7d-ccdcc0f85710}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\03. UseItem">
+      <UniqueIdentifier>{ee5dcb05-fa08-4c32-b336-e090659590fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Object\01. Enemy\01. Boss\00. Fennel">
+      <UniqueIdentifier>{cb9783ee-a7eb-423d-a511-6c15579ded06}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="GameManager.h">
+      <Filter>소스 파일\00. GameManager</Filter>
+    </ClInclude>
+    <ClInclude Include="AbstractFactory.h">
+      <Filter>소스 파일\97. Manager\00. AbstractFactory</Filter>
+    </ClInclude>
+    <ClInclude Include="MainClient.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Obj.h">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClInclude>
+    <ClInclude Include="Math.h">
+      <Filter>소스 파일\97. Manager\01. MathMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CollisionMgr.h">
+      <Filter>소스 파일\97. Manager\02. CollisionMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\98. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="ScrollMgr.h">
+      <Filter>소스 파일\97. Manager\05. ScrollMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="KeyMgr.h">
+      <Filter>소스 파일\97. Manager\04. KeyMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="ObjMgr.h">
+      <Filter>소스 파일\01. Object\99. ObjectMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>소스 파일\97. Manager\06. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture\00. SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture\01. MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="TimeMgr.h">
+      <Filter>소스 파일\97. Manager\07. TimeMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundMgr.h">
+      <Filter>소스 파일\97. Manager\08. SoundMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneMgr.h">
+      <Filter>소스 파일\04. SceneMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Scene.h">
+      <Filter>소스 파일\04. SceneMgr\00. Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="Logo.h">
+      <Filter>소스 파일\04. SceneMgr\00. Scene\00. Logo</Filter>
+    </ClInclude>
+    <ClInclude Include="UiMgr.h">
+      <Filter>소스 파일\05. UiMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Stage.h">
+      <Filter>소스 파일\04. SceneMgr\00. Scene\01. Stage</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainMgr.h">
+      <Filter>소스 파일\03. TerrainMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>소스 파일\03. TerrainMgr\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="Effect.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="EffectIMP.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor</Filter>
+    </ClInclude>
+    <ClInclude Include="Observer.h">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer</Filter>
+    </ClInclude>
+    <ClInclude Include="Subject.h">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\00. Subject</Filter>
+    </ClInclude>
+    <ClInclude Include="DataSubject.h">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\00. Subject\00. DataSubject</Filter>
+    </ClInclude>
+    <ClInclude Include="Arrow.h">
+      <Filter>소스 파일\01. Object\00. Player\02. Weapone\00. Arrow</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>소스 파일\01. Object\00. Player\00. Abstract</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor</Filter>
+    </ClInclude>
+    <ClInclude Include="IdleIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="ShootBowIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClInclude>
+    <ClInclude Include="RollIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\02. Evasion</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack2IMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack1IMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClInclude>
+    <ClInclude Include="Attack3IMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClInclude>
+    <ClInclude Include="AttackEffect.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract\00. AttackEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="AnimeEffect.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor\00. AnimeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="NonAnimeEffect.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor\01. NonAnimeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="ChargeEffect.h">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract\02. ChargeEffect</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpBowIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClInclude>
+    <ClInclude Include="NomalImp.h">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\00. Nomal</Filter>
+    </ClInclude>
+    <ClInclude Include="ShieldImp.h">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\01. Shield</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpAttack.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClInclude>
+    <ClInclude Include="HurtIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\03. Hit</Filter>
+    </ClInclude>
+    <ClInclude Include="Dagger.h">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\00. Dagger</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisionBomb.h">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\01. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="PoisionCloud.h">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\01. Bomb</Filter>
+    </ClInclude>
+    <ClInclude Include="Fennel.h">
+      <Filter>소스 파일\01. Object\01. Enemy\01. Boss\00. Fennel</Filter>
+    </ClInclude>
+    <ClInclude Include="TextMgr.h">
+      <Filter>소스 파일\97. Manager\10. TextMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="CrouchBowIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClInclude>
+    <ClInclude Include="UserInterface.h">
+      <Filter>소스 파일\05. UiMgr\00. UI</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerHp.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\03. HpBar\00. Player</Filter>
+    </ClInclude>
+    <ClInclude Include="PlayerInfo.h">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer\00. PlayerInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="ItemBox.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\05. ItemBox</Filter>
+    </ClInclude>
+    <ClInclude Include="Money.h">
+      <Filter>소스 파일\01. Object\04. Item\00. Money</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpEffect.h">
+      <Filter>소스 파일\01. Object\00. Player\03. Effect</Filter>
+    </ClInclude>
+    <ClInclude Include="MainMenu.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\00. Menu</Filter>
+    </ClInclude>
+    <ClInclude Include="BossHp.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\03. HpBar\01. Boss</Filter>
+    </ClInclude>
+    <ClInclude Include="BossInfo.h">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer\01. BossInfo</Filter>
+    </ClInclude>
+    <ClInclude Include="Equip.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\01. Equip</Filter>
+    </ClInclude>
+    <ClInclude Include="ImportItem.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\02. ImportItem</Filter>
+    </ClInclude>
+    <ClInclude Include="DataMgr.h">
+      <Filter>소스 파일\97. Manager\11. DataMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Slot.h">
+      <Filter>소스 파일\05. UiMgr\00. UI\99. Slot</Filter>
+    </ClInclude>
+    <ClInclude Include="JumpIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\01. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="FallIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\01. Jump</Filter>
+    </ClInclude>
+    <ClInclude Include="BrakeIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="CrouchIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="MoveIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="RiesIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="TurnIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClInclude>
+    <ClInclude Include="UseItemIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\03. UseItem</Filter>
+    </ClInclude>
+    <ClInclude Include="DeadIMP.h">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\00. Idle</Filter>
+    </ClInclude>
+    <ClInclude Include="Cath.h">
+      <Filter>소스 파일\01. Object\03. NPC</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="GameManager.cpp">
+      <Filter>소스 파일\00. GameManager</Filter>
+    </ClCompile>
+    <ClCompile Include="MainClient.cpp">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Obj.cpp">
+      <Filter>소스 파일\01. Object</Filter>
+    </ClCompile>
+    <ClCompile Include="Math.cpp">
+      <Filter>소스 파일\97. Manager\01. MathMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CollisionMgr.cpp">
+      <Filter>소스 파일\97. Manager\02. CollisionMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\98. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="ScrollMgr.cpp">
+      <Filter>소스 파일\97. Manager\05. ScrollMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="KeyMgr.cpp">
+      <Filter>소스 파일\97. Manager\04. KeyMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="ObjMgr.cpp">
+      <Filter>소스 파일\01. Object\99. ObjectMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>소스 파일\97. Manager\06. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture\00. SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>소스 파일\97. Manager\06. TextureMgr\00. Texture\01. MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="TimeMgr.cpp">
+      <Filter>소스 파일\97. Manager\07. TimeMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundMgr.cpp">
+      <Filter>소스 파일\97. Manager\08. SoundMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneMgr.cpp">
+      <Filter>소스 파일\04. SceneMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene.cpp">
+      <Filter>소스 파일\04. SceneMgr\00. Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Logo.cpp">
+      <Filter>소스 파일\04. SceneMgr\00. Scene\00. Logo</Filter>
+    </ClCompile>
+    <ClCompile Include="UiMgr.cpp">
+      <Filter>소스 파일\05. UiMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Stage.cpp">
+      <Filter>소스 파일\04. SceneMgr\00. Scene\01. Stage</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainMgr.cpp">
+      <Filter>소스 파일\03. TerrainMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>소스 파일\03. TerrainMgr\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="Effect.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="EffectIMP.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor</Filter>
+    </ClCompile>
+    <ClCompile Include="Observer.cpp">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer</Filter>
+    </ClCompile>
+    <ClCompile Include="Subject.cpp">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\00. Subject</Filter>
+    </ClCompile>
+    <ClCompile Include="DataSubject.cpp">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\00. Subject\00. DataSubject</Filter>
+    </ClCompile>
+    <ClCompile Include="Arrow.cpp">
+      <Filter>소스 파일\01. Object\00. Player\02. Weapone\00. Arrow</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>소스 파일\01. Object\00. Player\00. Abstract</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor</Filter>
+    </ClCompile>
+    <ClCompile Include="IdleIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="ShootBowIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClCompile>
+    <ClCompile Include="RollIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\02. Evasion</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack2IMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack1IMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClCompile>
+    <ClCompile Include="Attack3IMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClCompile>
+    <ClCompile Include="AttackEffect.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract\00. AttackEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="AnimeEffect.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor\00. AnimeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="NonAnimeEffect.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\01.Implementor\01. NonAnimeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="ChargeEffect.cpp">
+      <Filter>소스 파일\01. Object\98. EffectMgr\00. Abstract\02. ChargeEffect</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpBowIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClCompile>
+    <ClCompile Include="NomalImp.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\00. Nomal</Filter>
+    </ClCompile>
+    <ClCompile Include="ShieldImp.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\01. Shield</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpAttack.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\00. Close</Filter>
+    </ClCompile>
+    <ClCompile Include="HurtIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\03. Hit</Filter>
+    </ClCompile>
+    <ClCompile Include="Dagger.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\00. Dagger</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisionBomb.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\01. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="PoisionCloud.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\00. Nomal\00. Imp\02.Weapone\01. Bomb</Filter>
+    </ClCompile>
+    <ClCompile Include="Fennel.cpp">
+      <Filter>소스 파일\01. Object\01. Enemy\01. Boss\00. Fennel</Filter>
+    </ClCompile>
+    <ClCompile Include="TextMgr.cpp">
+      <Filter>소스 파일\97. Manager\10. TextMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="CrouchBowIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\02. Battle\01. Long Range</Filter>
+    </ClCompile>
+    <ClCompile Include="UserInterface.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerHp.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\03. HpBar\00. Player</Filter>
+    </ClCompile>
+    <ClCompile Include="PlayerInfo.cpp">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer\00. PlayerInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="ItemBox.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\05. ItemBox</Filter>
+    </ClCompile>
+    <ClCompile Include="Money.cpp">
+      <Filter>소스 파일\01. Object\04. Item\00. Money</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpEffect.cpp">
+      <Filter>소스 파일\01. Object\00. Player\03. Effect</Filter>
+    </ClCompile>
+    <ClCompile Include="MainMenu.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\00. Menu</Filter>
+    </ClCompile>
+    <ClCompile Include="BossHp.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\03. HpBar\01. Boss</Filter>
+    </ClCompile>
+    <ClCompile Include="BossInfo.cpp">
+      <Filter>소스 파일\97. Manager\09. ObserverMgr\01. Observer\01. BossInfo</Filter>
+    </ClCompile>
+    <ClCompile Include="Equip.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\01. Equip</Filter>
+    </ClCompile>
+    <ClCompile Include="ImportItem.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\02. ImportItem</Filter>
+    </ClCompile>
+    <ClCompile Include="DataMgr.cpp">
+      <Filter>소스 파일\97. Manager\11. DataMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Slot.cpp">
+      <Filter>소스 파일\05. UiMgr\00. UI\99. Slot</Filter>
+    </ClCompile>
+    <ClCompile Include="JumpIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\01. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="FallIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\01. Jump</Filter>
+    </ClCompile>
+    <ClCompile Include="BrakeIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="CrouchIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="MoveIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="RiesIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="TurnIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\00. Move</Filter>
+    </ClCompile>
+    <ClCompile Include="UseItemIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\01. Movememt\03. UseItem</Filter>
+    </ClCompile>
+    <ClCompile Include="DeadIMP.cpp">
+      <Filter>소스 파일\01. Object\00. Player\01. Implementor\00. Idle</Filter>
+    </ClCompile>
+    <ClCompile Include="Cath.cpp">
+      <Filter>소스 파일\01. Object\03. NPC</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MainClient.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="MainClient.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>

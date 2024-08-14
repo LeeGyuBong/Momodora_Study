@@ -1,0 +1,236 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="소스 파일">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="리소스 파일">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="소스 파일\00. MainFrm">
+      <UniqueIdentifier>{b46ada1b-3681-4ac4-93d4-b4e9a467f14c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\01. Document">
+      <UniqueIdentifier>{51063e00-86e4-462d-bdf5-98f03efe8386}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\02. View">
+      <UniqueIdentifier>{962959bf-db48-4d05-99c6-4ffdd35b5334}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\03. MyForm">
+      <UniqueIdentifier>{be1836f8-e48d-4ca7-81c2-8d0217898c40}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager">
+      <UniqueIdentifier>{b60f4146-376c-47c9-95fa-d5963011197f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\98. Device">
+      <UniqueIdentifier>{d49b0f67-a9fb-4f08-be05-79287019de00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\99. ETC">
+      <UniqueIdentifier>{3eaaa073-fd75-4e19-96b6-a0d0c62d256f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\00. TextureMgr">
+      <UniqueIdentifier>{55b390a2-4a7d-42ab-9b29-b5ecf1b386fe}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\00. TextureMgr\00. Texture">
+      <UniqueIdentifier>{e7655a6e-727d-4d62-877c-a77700eb3606}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\00. TextureMgr\00. Texture\00. SingleTexture">
+      <UniqueIdentifier>{e280f530-62f5-45e3-a30f-10d5746b3084}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\97. Manager\00. TextureMgr\00. Texture\01. MultiTexture">
+      <UniqueIdentifier>{f9adfb8e-6e27-4210-a752-0932051f5426}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog">
+      <UniqueIdentifier>{be144ee2-dcb8-45c3-bffd-38904091eb53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\00. Terrain">
+      <UniqueIdentifier>{5ee5f533-8e08-46bd-972e-25bd02cadb91}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\01. Monster">
+      <UniqueIdentifier>{817a36a5-e99e-43f2-b549-5b4c7c395256}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\00. Terrain\00. Sheet">
+      <UniqueIdentifier>{266828f1-f620-40cd-9592-ff40963ca278}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\00. Terrain\00. Sheet\00. TileObj">
+      <UniqueIdentifier>{6a34c4ce-44dd-4254-806e-8c830f0b10a7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\00. Terrain\00. Sheet\01. BackObj">
+      <UniqueIdentifier>{58fd1d3c-d39d-4a88-8946-92a6d5301c57}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\00. Terrain\00. Sheet\02. InteractionObj">
+      <UniqueIdentifier>{5af86f85-4566-4067-9174-9003d98f9aae}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\05. Terrain">
+      <UniqueIdentifier>{3a48cb3c-8aba-4a67-91b4-29363972db03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\02. MapLink">
+      <UniqueIdentifier>{2d82647a-62f4-443d-bab4-6b0911f54131}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\04. Dialog\03. PathFind">
+      <UniqueIdentifier>{2372621b-f524-4243-a3d9-4d404a42a2b9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\06. FileInfo">
+      <UniqueIdentifier>{5b6c4cf8-0eae-4915-b755-7638ed312420}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MainFrm.h">
+      <Filter>소스 파일\00. MainFrm</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolDoc.h">
+      <Filter>소스 파일\01. Document</Filter>
+    </ClInclude>
+    <ClInclude Include="ToolView.h">
+      <Filter>소스 파일\02. View</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Tool.h">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClInclude>
+    <ClInclude Include="Device.h">
+      <Filter>소스 파일\98. Device</Filter>
+    </ClInclude>
+    <ClInclude Include="SingleTexture.h">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture\00. SingleTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="MultiTexture.h">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture\01. MultiTexture</Filter>
+    </ClInclude>
+    <ClInclude Include="Texture.h">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture</Filter>
+    </ClInclude>
+    <ClInclude Include="TextureMgr.h">
+      <Filter>소스 파일\97. Manager\00. TextureMgr</Filter>
+    </ClInclude>
+    <ClInclude Include="Form.h">
+      <Filter>소스 파일\03. MyForm</Filter>
+    </ClInclude>
+    <ClInclude Include="Terrain.h">
+      <Filter>소스 파일\05. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MonsterDig.h">
+      <Filter>소스 파일\04. Dialog\01. Monster</Filter>
+    </ClInclude>
+    <ClInclude Include="TerrainDig.h">
+      <Filter>소스 파일\04. Dialog\00. Terrain</Filter>
+    </ClInclude>
+    <ClInclude Include="MySheet.h">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet</Filter>
+    </ClInclude>
+    <ClInclude Include="TileObj.h">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\00. TileObj</Filter>
+    </ClInclude>
+    <ClInclude Include="BackObj.h">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\01. BackObj</Filter>
+    </ClInclude>
+    <ClInclude Include="InteractObj.h">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\02. InteractionObj</Filter>
+    </ClInclude>
+    <ClInclude Include="MapLinkDig.h">
+      <Filter>소스 파일\04. Dialog\02. MapLink</Filter>
+    </ClInclude>
+    <ClInclude Include="PathFindDig.h">
+      <Filter>소스 파일\04. Dialog\03. PathFind</Filter>
+    </ClInclude>
+    <ClInclude Include="FileInfo.h">
+      <Filter>소스 파일\06. FileInfo</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="ToolDoc.cpp">
+      <Filter>소스 파일\01. Document</Filter>
+    </ClCompile>
+    <ClCompile Include="MainFrm.cpp">
+      <Filter>소스 파일\00. MainFrm</Filter>
+    </ClCompile>
+    <ClCompile Include="ToolView.cpp">
+      <Filter>소스 파일\02. View</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Tool.cpp">
+      <Filter>소스 파일\99. ETC</Filter>
+    </ClCompile>
+    <ClCompile Include="Device.cpp">
+      <Filter>소스 파일\98. Device</Filter>
+    </ClCompile>
+    <ClCompile Include="MultiTexture.cpp">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture\01. MultiTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleTexture.cpp">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture\00. SingleTexture</Filter>
+    </ClCompile>
+    <ClCompile Include="Texture.cpp">
+      <Filter>소스 파일\97. Manager\00. TextureMgr\00. Texture</Filter>
+    </ClCompile>
+    <ClCompile Include="TextureMgr.cpp">
+      <Filter>소스 파일\97. Manager\00. TextureMgr</Filter>
+    </ClCompile>
+    <ClCompile Include="Form.cpp">
+      <Filter>소스 파일\03. MyForm</Filter>
+    </ClCompile>
+    <ClCompile Include="Terrain.cpp">
+      <Filter>소스 파일\05. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MonsterDig.cpp">
+      <Filter>소스 파일\04. Dialog\01. Monster</Filter>
+    </ClCompile>
+    <ClCompile Include="TerrainDig.cpp">
+      <Filter>소스 파일\04. Dialog\00. Terrain</Filter>
+    </ClCompile>
+    <ClCompile Include="MySheet.cpp">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet</Filter>
+    </ClCompile>
+    <ClCompile Include="TileObj.cpp">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\00. TileObj</Filter>
+    </ClCompile>
+    <ClCompile Include="BackObj.cpp">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\01. BackObj</Filter>
+    </ClCompile>
+    <ClCompile Include="InteractObj.cpp">
+      <Filter>소스 파일\04. Dialog\00. Terrain\00. Sheet\02. InteractionObj</Filter>
+    </ClCompile>
+    <ClCompile Include="MapLinkDig.cpp">
+      <Filter>소스 파일\04. Dialog\02. MapLink</Filter>
+    </ClCompile>
+    <ClCompile Include="PathFindDig.cpp">
+      <Filter>소스 파일\04. Dialog\03. PathFind</Filter>
+    </ClCompile>
+    <ClCompile Include="FileInfo.cpp">
+      <Filter>소스 파일\06. FileInfo</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="Tool.rc">
+      <Filter>리소스 파일</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\Tool.rc2">
+      <Filter>리소스 파일</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="res\ToolDoc.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Tool.ico">
+      <Filter>리소스 파일</Filter>
+    </Image>
+    <Image Include="res\Toolbar.bmp">
+      <Filter>리소스 파일</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
