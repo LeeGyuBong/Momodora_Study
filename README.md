@@ -5,6 +5,10 @@
 개발 환경 : C++, Win32, DirectX 2D
 
 개발 기간 : 2018.7.30 ~ 2018.8.19 (21일)
+
+참고 영상   
+https://youtu.be/k1nIG3GcgK8
+
 ```
 Data -> 리소스
 MailClinet -> C++ 코드
